@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "SS_min_mV_per_dec",
+  "model": "polynomial",
+  "cv_r2_mean": 0.947214397668192,
+  "cv_r2_std": 0.01039265212294171,
+  "val_r2": 0.9642588676229327,
+  "test_r2": 0.9575340684908825,
+  "test_mae": 2.930192541446803,
+  "test_mse": 18.65486134586081,
+  "test_rmse": 4.319127382453638,
+  "train_seconds": 0.12806955000087328,
+  "best_params": "{\"poly__degree\": 3, \"ridge__alpha\": 1.0}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

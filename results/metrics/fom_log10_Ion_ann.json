@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_Ion",
+  "model": "ann",
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "val_r2": 0.9845699868052775,
+  "test_r2": 0.9850529037346408,
+  "test_mae": 0.08086070279356591,
+  "test_mse": 0.012526549002200784,
+  "test_rmse": 0.11192206664550465,
+  "train_seconds": 5.6173231639986625,
+  "best_params": "{\"hidden_sizes\": \"(128, 64)\", \"dropout\": \"0.1\", \"lr\": \"0.001\", \"batch_size\": \"256\", \"max_epochs\": \"300\", \"patience\": \"25\"}",
+  "r2_linear": 0.9702482062006104,
+  "rmse_linear": 1.42889246230534e-07
+}

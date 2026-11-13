@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_Ioff",
+  "model": "ann",
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "val_r2": 0.9924685478356968,
+  "test_r2": 0.9963644044927676,
+  "test_mae": 0.02791793521820369,
+  "test_mse": 0.0014969553602969593,
+  "test_rmse": 0.03869050736675547,
+  "train_seconds": 6.398808707001081,
+  "best_params": "{\"hidden_sizes\": \"(128, 64)\", \"dropout\": \"0.1\", \"lr\": \"0.001\", \"batch_size\": \"256\", \"max_epochs\": \"300\", \"patience\": \"25\"}",
+  "r2_linear": 0.9897899832862607,
+  "rmse_linear": 4.384574278751646e-15
+}

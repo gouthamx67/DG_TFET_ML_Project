@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_gm_max",
+  "model": "ann",
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "val_r2": 0.9869522309209534,
+  "test_r2": 0.9878375345775678,
+  "test_mae": 0.0629732162681653,
+  "test_mse": 0.007534602342950911,
+  "test_rmse": 0.08680208720388531,
+  "train_seconds": 6.24225974699948,
+  "best_params": "{\"hidden_sizes\": \"(128, 64)\", \"dropout\": \"0.1\", \"lr\": \"0.001\", \"batch_size\": \"256\", \"max_epochs\": \"300\", \"patience\": \"25\"}",
+  "r2_linear": 0.9816322138350131,
+  "rmse_linear": 5.27694423368392e-07
+}

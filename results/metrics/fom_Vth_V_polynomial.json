@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "Vth_V",
+  "model": "polynomial",
+  "cv_r2_mean": 0.8693735395093709,
+  "cv_r2_std": 0.01902194973082764,
+  "val_r2": 0.8864109980779028,
+  "test_r2": 0.8680328606072907,
+  "test_mae": 0.07132793040424482,
+  "test_mse": 0.012058928446981506,
+  "test_rmse": 0.10981315243167143,
+  "train_seconds": 0.1501945509990037,
+  "best_params": "{\"poly__degree\": 2, \"ridge__alpha\": 1.0}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "chunk": 0,
+    "returncode": 0,
+    "seconds": 792.0,
+    "out_path": "data/raw/octave_output/chunk_00.csv",
+    "log": "results/metrics/generation_logs/chunk_00.log"
+  },
+  {
+    "chunk": 1,
+    "returncode": 0,
+    "seconds": 786.4,
+    "out_path": "data/raw/octave_output/chunk_01.csv",
+    "log": "results/metrics/generation_logs/chunk_01.log"
+  },
+  {
+    "chunk": 2,
+    "returncode": 0,
+    "seconds": 757.3,
+    "out_path": "data/raw/octave_output/chunk_02.csv",
+    "log": "results/metrics/generation_logs/chunk_02.log"
+  },
+  {
+    "chunk": 3,
+    "returncode": 0,
+    "seconds": 766.2,
+    "out_path": "data/raw/octave_output/chunk_03.csv",
+    "log": "results/metrics/generation_logs/chunk_03.log"
+  },
+  {
+    "chunk": 4,
+    "returncode": 0,
+    "seconds": 793.9,
+    "out_path": "data/raw/octave_output/chunk_04.csv",
+    "log": "results/metrics/generation_logs/chunk_04.log"
+  },
+  {
+    "chunk": 5,
+    "returncode": 0,
+    "seconds": 757.1,
+    "out_path": "data/raw/octave_output/chunk_05.csv",
+    "log": "results/metrics/generation_logs/chunk_05.log"
+  }
+]

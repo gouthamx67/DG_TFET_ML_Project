@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_Ioff",
+  "model": "lightgbm",
+  "cv_r2_mean": 0.9858932874514676,
+  "cv_r2_std": 0.004528762529576301,
+  "val_r2": 0.9712751522786488,
+  "test_r2": 0.9928805430814956,
+  "test_mae": 0.044349950683084796,
+  "test_mse": 0.0029314342520660778,
+  "test_rmse": 0.054142721136511765,
+  "train_seconds": 0.5778769399985322,
+  "best_params": "{\"subsample\": 1.0, \"reg_lambda\": 0.001, \"reg_alpha\": 0.01, \"num_leaves\": 7, \"n_estimators\": 400, \"min_child_samples\": 20, \"learning_rate\": 0.1, \"colsample_bytree\": 0.8}",
+  "r2_linear": 0.9761945611764046,
+  "rmse_linear": 6.695026511337258e-15
+}

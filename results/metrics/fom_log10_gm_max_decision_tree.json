@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_gm_max",
+  "model": "decision_tree",
+  "cv_r2_mean": 0.8231182624225019,
+  "cv_r2_std": 0.03276153057737662,
+  "val_r2": 0.833635327074953,
+  "test_r2": 0.8098484690240215,
+  "test_mae": 0.25198927255755804,
+  "test_mse": 0.11779817011153389,
+  "test_rmse": 0.34321738025853804,
+  "train_seconds": 0.18775043099958566,
+  "best_params": "{\"min_samples_split\": 2, \"min_samples_leaf\": 5, \"max_features\": null, \"max_depth\": 15}",
+  "r2_linear": 0.6724096078559288,
+  "rmse_linear": 2.2285361081313287e-06
+}

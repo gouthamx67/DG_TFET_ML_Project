@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "log10_Ion",
+  "model": "random_forest",
+  "cv_r2_mean": 0.8822290657851536,
+  "cv_r2_std": 0.03171435757027226,
+  "val_r2": 0.910051805689284,
+  "test_r2": 0.8925881159125785,
+  "test_mae": 0.23137669557701704,
+  "test_mse": 0.09001749942281945,
+  "test_rmse": 0.30002916428710635,
+  "train_seconds": 3.431355729000643,
+  "best_params": "{\"n_estimators\": 200, \"min_samples_leaf\": 1, \"max_features\": 1.0, \"max_depth\": 20}",
+  "r2_linear": 0.8511799038831487,
+  "rmse_linear": 3.195757066381137e-07
+}

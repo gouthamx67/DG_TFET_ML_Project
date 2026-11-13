@@ -1,0 +1,67 @@
+{
+  "n_devices_total": 512,
+  "n_devices_valid": 491,
+  "n_curves_total": 1536,
+  "n_curves_valid": 1268,
+  "valid_by_vds": {
+    "0.1": {
+      "total": 512,
+      "valid": 318
+    },
+    "0.3": {
+      "total": 512,
+      "valid": 461
+    },
+    "0.5": {
+      "total": 512,
+      "valid": 489
+    }
+  },
+  "exclusion_reasons": {
+    "ion_out_of_range": 123,
+    "ion_out_of_range;ss_undefined;vth_undefined": 65,
+    "ion_out_of_range;vth_undefined": 48,
+    "ion_out_of_range;ion_ioff_ratio_below_100;ss_undefined;vth_undefined": 25,
+    "non_finite_or_nonpositive_current": 6,
+    "ion_out_of_range;ion_ioff_ratio_below_100;ss_undefined": 1
+  },
+  "target_ranges": {
+    "Ioff_A_per_um": {
+      "min": 3.174022208291e-16,
+      "median": 1.3264698036215e-14,
+      "max": 3.186000005031e-13
+    },
+    "Ion_A_per_um": {
+      "min": 1.009704501514e-09,
+      "median": 1.016083213879e-07,
+      "max": 1.513715756968e-05
+    },
+    "Ion_Ioff_ratio": {
+      "min": 16506.542606671006,
+      "median": 7132588.652913466,
+      "max": 2424706190.0330153
+    },
+    "Vth_V": {
+      "min": 0.187850593184838,
+      "median": 0.6108087421007765,
+      "max": 1.4958729496006642
+    },
+    "gm_max_S_per_um": {
+      "min": 1.130440044774999e-08,
+      "median": 7.242254381849991e-07,
+      "max": 4.397558168225019e-05
+    },
+    "SS_min_mV_per_dec": {
+      "min": 21.983453325328757,
+      "median": 53.423950361702516,
+      "max": 148.15652093416966
+    }
+  },
+  "vth_method_counts": {
+    "constant_current_10nA": 1227,
+    "constant_current_1nA": 41
+  },
+  "data_label": "physics-based compact-model synthetic, not TCAD or measured",
+  "temperature_K": 300.0,
+  "temperature_note": "model validated only at 300 K"
+}

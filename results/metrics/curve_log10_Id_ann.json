@@ -1,0 +1,16 @@
+{
+  "task": "curve",
+  "target": "log10_Id",
+  "model": "ann",
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "val_r2": 0.9992647151094085,
+  "test_r2": 0.9993073020481983,
+  "test_mae": 0.056851412814204826,
+  "test_mse": 0.006726262350783907,
+  "test_rmse": 0.08201379366170003,
+  "train_seconds": 102.11935979499867,
+  "best_params": "{\"hidden_sizes\": \"(256, 128, 64)\", \"dropout\": \"0.1\", \"lr\": \"0.001\", \"batch_size\": \"512\", \"max_epochs\": \"120\", \"patience\": \"12\"}",
+  "r2_linear": 0.9873163590915117,
+  "rmse_linear": 1.1092407000272615e-07
+}

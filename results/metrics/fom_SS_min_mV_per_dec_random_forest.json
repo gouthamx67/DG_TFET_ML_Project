@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "SS_min_mV_per_dec",
+  "model": "random_forest",
+  "cv_r2_mean": 0.7870445662688039,
+  "cv_r2_std": 0.03050792853698246,
+  "val_r2": 0.8543170419954572,
+  "test_r2": 0.8128543427860317,
+  "test_mae": 6.508906778981611,
+  "test_mse": 82.21122586365526,
+  "test_rmse": 9.067040634278378,
+  "train_seconds": 4.925410624000506,
+  "best_params": "{\"n_estimators\": 100, \"min_samples_leaf\": 2, \"max_features\": 0.5, \"max_depth\": 10}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

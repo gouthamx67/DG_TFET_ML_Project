@@ -1,0 +1,16 @@
+{
+  "task": "curve",
+  "target": "log10_Id",
+  "model": "decision_tree",
+  "cv_r2_mean": 0.9765440964976092,
+  "cv_r2_std": 0.0034422364168344814,
+  "val_r2": 0.9815516812666938,
+  "test_r2": 0.9788759392366019,
+  "test_mae": 0.31689740356555085,
+  "test_mse": 0.20511966902595863,
+  "test_rmse": 0.45290138995807755,
+  "train_seconds": 3.0805446739996114,
+  "best_params": "{\"min_samples_split\": 10, \"min_samples_leaf\": 1, \"max_features\": null, \"max_depth\": null}",
+  "r2_linear": 0.5054209977476327,
+  "rmse_linear": 6.926624812207255e-07
+}

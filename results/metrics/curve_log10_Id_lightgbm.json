@@ -1,0 +1,16 @@
+{
+  "task": "curve",
+  "target": "log10_Id",
+  "model": "lightgbm",
+  "cv_r2_mean": 0.9898552912952242,
+  "cv_r2_std": 0.0007173460949770374,
+  "val_r2": 0.9906448289201975,
+  "test_r2": 0.9915238049893933,
+  "test_mae": 0.21042480593727356,
+  "test_mse": 0.08230587549661304,
+  "test_rmse": 0.28689000591971314,
+  "train_seconds": 7.757232211999508,
+  "best_params": "{\"subsample\": 0.8, \"reg_lambda\": 0.01, \"reg_alpha\": 0.01, \"num_leaves\": 31, \"n_estimators\": 100, \"min_child_samples\": 40, \"learning_rate\": 0.05, \"colsample_bytree\": 1.0}",
+  "r2_linear": 0.8057625528675199,
+  "rmse_linear": 4.340805312812051e-07
+}

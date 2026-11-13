@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "SS_min_mV_per_dec",
+  "model": "decision_tree",
+  "cv_r2_mean": 0.639116085935204,
+  "cv_r2_std": 0.13432082717602187,
+  "val_r2": 0.7335747155488384,
+  "test_r2": 0.6851001228258942,
+  "test_mae": 8.545003051589145,
+  "test_mse": 138.3323840488533,
+  "test_rmse": 11.761478820660832,
+  "train_seconds": 0.20385358100065787,
+  "best_params": "{\"min_samples_split\": 2, \"min_samples_leaf\": 5, \"max_features\": null, \"max_depth\": 15}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

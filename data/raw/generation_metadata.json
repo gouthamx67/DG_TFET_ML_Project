@@ -1,0 +1,74 @@
+{
+  "generated_utc": "2026-11-12T11:13:59.771793+00:00",
+  "model": "THM-TFET v1.2 compact model (ctfet, THM University of Applied Sciences)",
+  "model_type": "physics-based compact model calibrated to Sentaurus TCAD",
+  "data_label": "physics-based compact-model synthetic (NOT TCAD, NOT measured)",
+  "license": "see src/octave/ctfet/LICENSE.txt",
+  "n_devices": 512,
+  "bias_grid": {
+    "Vgs_V": [
+      -0.4,
+      1.5,
+      0.020000000000000018
+    ],
+    "Vds_V": [
+      0.1,
+      0.3,
+      0.5
+    ]
+  },
+  "width_um": 1.0,
+  "temperature_K": 300.0,
+  "temperature_note": "model validated only at 300 K; T not varied",
+  "design_space": {
+    "lch_nm": {
+      "min": 15.0,
+      "max": 50.0,
+      "sampling": "log"
+    },
+    "tox_nm": {
+      "min": 1.0,
+      "max": 3.0,
+      "sampling": "log"
+    },
+    "tch_nm": {
+      "min": 5.0,
+      "max": 15.0,
+      "sampling": "log"
+    },
+    "eps_ox": {
+      "min": 3.9,
+      "max": 25.0,
+      "sampling": "linear"
+    },
+    "Ns_cm3": {
+      "min": 5e+19,
+      "max": 1e+20,
+      "sampling": "log"
+    },
+    "Nd_cm3": {
+      "min": 1e+18,
+      "max": 1e+20,
+      "sampling": "log"
+    },
+    "Nch_cm3": {
+      "min": 10000000000.0,
+      "max": 10000000000000.0,
+      "sampling": "log"
+    },
+    "NT_cm2": {
+      "min": 10000000000.0,
+      "max": 1000000000000.0,
+      "sampling": "log"
+    }
+  },
+  "fixed_parameters": {
+    "lsd_nm": 20.0,
+    "Eg_s_eV": 1.124,
+    "Eg_d_eV": 1.124,
+    "Eg_ch_eV": 1.08,
+    "mat_s": "Silicon",
+    "TYPE": 1
+  },
+  "note_NT": "interface trap density NT is varied as a process parameter; model calibrated at NT=1e10 cm^-2"
+}

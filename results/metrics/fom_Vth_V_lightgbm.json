@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "Vth_V",
+  "model": "lightgbm",
+  "cv_r2_mean": 0.8419104870753055,
+  "cv_r2_std": 0.017689416576534053,
+  "val_r2": 0.8739598013510571,
+  "test_r2": 0.8656972918341215,
+  "test_mae": 0.07545121907341251,
+  "test_mse": 0.012272348673018523,
+  "test_rmse": 0.11078063311345772,
+  "train_seconds": 0.6102477989988984,
+  "best_params": "{\"subsample\": 1.0, \"reg_lambda\": 0.0, \"reg_alpha\": 0.01, \"num_leaves\": 7, \"n_estimators\": 400, \"min_child_samples\": 5, \"learning_rate\": 0.03, \"colsample_bytree\": 0.8}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

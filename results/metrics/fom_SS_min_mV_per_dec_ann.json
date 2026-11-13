@@ -1,0 +1,16 @@
+{
+  "task": "fom",
+  "target": "SS_min_mV_per_dec",
+  "model": "ann",
+  "cv_r2_mean": NaN,
+  "cv_r2_std": NaN,
+  "val_r2": 0.9702865710954356,
+  "test_r2": 0.9460789709085605,
+  "test_mae": 3.1470629506822245,
+  "test_mse": 23.68697178139057,
+  "test_rmse": 4.866926317645519,
+  "train_seconds": 5.666101211998466,
+  "best_params": "{\"hidden_sizes\": \"(256, 128, 64)\", \"dropout\": \"0.1\", \"lr\": \"0.001\", \"batch_size\": \"256\", \"max_epochs\": \"300\", \"patience\": \"25\"}",
+  "r2_linear": NaN,
+  "rmse_linear": NaN
+}

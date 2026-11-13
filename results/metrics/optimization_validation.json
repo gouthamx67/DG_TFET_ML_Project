@@ -1,0 +1,62 @@
+{
+  "Ion": {
+    "r2": -65.24055241333137,
+    "mae": 0.21347812676118333,
+    "bias": 0.21347812676118333,
+    "median_abs_error": 0.21018894551857148,
+    "max_abs_error": 0.2634328043303098,
+    "pearson_r": 0.30334649189629637,
+    "range_sim": 0.0863015159179934,
+    "n": 10,
+    "space": "log10",
+    "r2_note": "R2 is not informative for a narrow optimized-design set; use MAE/bias"
+  },
+  "Ioff": {
+    "r2": -52.352813390058984,
+    "mae": 0.10804185558678014,
+    "bias": 0.10804185558678014,
+    "median_abs_error": 0.1057477597708969,
+    "max_abs_error": 0.12134931560901308,
+    "pearson_r": 0.9091670396675288,
+    "range_sim": 0.043151977986420675,
+    "n": 10,
+    "space": "log10",
+    "r2_note": "R2 is not informative for a narrow optimized-design set; use MAE/bias"
+  },
+  "gm_max": {
+    "r2": -0.4770826683070908,
+    "mae": 0.03502846783099374,
+    "bias": 0.026325421986626817,
+    "median_abs_error": 0.0331875889185107,
+    "max_abs_error": 0.06323998567312472,
+    "pearson_r": 0.40339795443053006,
+    "range_sim": 0.10270461393323771,
+    "n": 10,
+    "space": "log10",
+    "r2_note": "R2 is not informative for a narrow optimized-design set; use MAE/bias"
+  },
+  "Vth": {
+    "r2": -23.954985149900402,
+    "mae": 0.015539653373461585,
+    "bias": 0.015539653373461585,
+    "median_abs_error": 0.017552367342902803,
+    "max_abs_error": 0.02176168311655985,
+    "pearson_r": 0.9176468239640392,
+    "range_sim": 0.010593787971541618,
+    "n": 10,
+    "space": "linear",
+    "r2_note": "R2 is not informative for a narrow optimized-design set; use MAE/bias"
+  },
+  "SS_min": {
+    "r2": -700.8652142242759,
+    "mae": 5.242630441061495,
+    "bias": 5.242630441061495,
+    "median_abs_error": 5.358792634667521,
+    "max_abs_error": 6.174539073067923,
+    "pearson_r": -0.44766188555919934,
+    "range_sim": 0.539836948203142,
+    "n": 10,
+    "space": "linear",
+    "r2_note": "R2 is not informative for a narrow optimized-design set; use MAE/bias"
+  }
+}
